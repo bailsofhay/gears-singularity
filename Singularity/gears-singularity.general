@@ -22,7 +22,7 @@ Include: bash
   apt-get install -y software-properties-common python-software-properties
   add-apt-repository ppa:ubuntugis/ppa
   apt-get update
-  apt-get install -y grass libgdal-dev libproj-dev gdal-bin
+  apt-get install -y grass libgdal-dev libproj-dev gdal-bin python-gdal python3-gdal
   
   # Miscellaneous other installs
   apt-get install -y libudunits2-dev
